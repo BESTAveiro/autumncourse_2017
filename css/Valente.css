@@ -38,4 +38,11 @@
     float: none;
 }
 
-
+.MOImg
+{
+    margin-top : 50px;
+    max-height: 150 px;
+    /*height: auto;*/
+    max-width: 300px;
+    /*width: auto;*/
+}
