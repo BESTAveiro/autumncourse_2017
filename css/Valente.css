@@ -1,0 +1,41 @@
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.nav-tabs > li > a{
+
+    color:black !important;
+
+}
+
+#btn-border {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    padding: 20px 25px 20px 25px;
+    border: solid #F05F40 1px;
+    text-decoration: none;
+}
+#btn-border2 {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    padding: 20px 25px 20px 25px;
+    border: solid #F05F40 1px;
+    text-decoration: none;
+}
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
