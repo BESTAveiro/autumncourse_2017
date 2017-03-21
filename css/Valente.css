@@ -52,3 +52,20 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.socialIcons
+{
+    margin-top : 10px;
+    max-height: 50px;
+    /*height: auto;*/
+    max-width: 50px;
+    /*width: auto;*/
+    margin: 10px;
+}
+.text-Mail {
+    color: white;
+}
+
+.marginTop {
+    margin-top: 5px;
+}
