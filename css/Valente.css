@@ -55,12 +55,15 @@
 
 .socialIcons
 {
-    margin-top : 10px;
     max-height: 50px;
     /*height: auto;*/
     max-width: 50px;
     /*width: auto;*/
     margin: 10px;
+}
+
+.centerMultipleImages{
+    display:inline-block;
 }
 .text-Mail {
     color: white;
@@ -68,4 +71,25 @@
 
 .marginTop {
     margin-top: 5px;
+}
+
+.partnersPortfolioBox
+{
+    height: 200px;
+}
+
+.contactImages
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+
+    max-height: 200px;
+    margin: auto;
+    /*height: auto;*/
+    vertical-align: middle;
+    max-width: 100%;
+    /*width: auto;*/
+
 }
