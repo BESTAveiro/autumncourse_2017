@@ -55,12 +55,12 @@
 
 .socialIcons
 {
-    margin-top : 10px;
-    max-height: 50px;
-    /*height: auto;*/
-    max-width: 50px;
-    /*width: auto;*/
-    margin: 10px;
+margin-top : 10px;
+max-height: 50px;
+/*height: auto;*/
+max-width: 50px;
+/*width: auto;*/
+margin: 10px;
 }
 .text-Mail {
     color: white;
@@ -68,4 +68,14 @@
 
 .marginTop {
     margin-top: 5px;
+}
+
+.contactImages
+{
+
+    max-height: 650px;
+    /*height: auto;*/
+    max-width: 350px;
+    /*width: auto;*/
+
 }
