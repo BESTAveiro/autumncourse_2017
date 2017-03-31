@@ -19,6 +19,7 @@
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="css/Valente.css" rel="stylesheet">
     <link href="css/SocialNetWorks.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -100,6 +101,7 @@
 
 
 
+
 <section id="course" class="section-ours  dark">
     <div class="container text-center">
         <!--hr class="clearfix" /-->
@@ -125,7 +127,7 @@
                 <div class="section-content row">
                     <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
                         <br>
-                        <img src="img/internet_of_things.png" class="img-responsive img-rounded" alt="about" />
+                        <img src="img/logo_curso.png" class="img-responsive img-rounded" alt="about" />
                     </div>
                     <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
                         <article class="left">
@@ -162,7 +164,7 @@
                 <div class="section-content row">
                     <div class="animated hiding" data-animation="fadeInLeft">
                         <br>
-                        <a href="assets/img/horario.png"><img src="img/smile.jpeg" class="img-responsive center-block img-rounded" alt="schedule" /></a>
+                        <a href="assets/img/horario.png"><img src="img/schedule" class="img-responsive center-block img-rounded" alt="schedule" /></a>
                     </div>
                 </div>
             </div>
@@ -227,7 +229,48 @@
 
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <img src="img/smile.jpeg" class="img-responsive pull-right img-rounded" alt="process 2" />
+                <div id="myCarousel" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <!-- Set the first background image using inline CSS below. -->
+                            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                            <div class="carousel-caption">
+                                <h2>Caption 1</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- Set the second background image using inline CSS below. -->
+                            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                            <div class="carousel-caption">
+                                <h2>Caption 2</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- Set the third background image using inline CSS below. -->
+                            <div class="fill" style="background-image:url('img/aveiro.JPG');"></div>
+                            <div class="carousel-caption">
+                                <h2>Caption 3</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+
+                </div>
             </div>
             <div class="col-lg-6 col-md-12 text-justify">
                 <p>
