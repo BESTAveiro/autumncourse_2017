@@ -20,7 +20,7 @@
     -moz-border-radius: 30;
     border-radius: 30px;
     padding: 20px 25px 20px 25px;
-    border: solid #F05F40 1px;
+    border: solid #F39200 1px;
     text-decoration: none;
 }
 #btn-border2 {
@@ -28,7 +28,7 @@
     -moz-border-radius: 30;
     border-radius: 30px;
     padding: 20px 25px 20px 25px;
-    border: solid #F05F40 1px;
+    border: solid #F39200 1px;
     text-decoration: none;
 }
 
@@ -92,4 +92,9 @@
     max-width: 100%;
     /*width: auto;*/
 
+}
+
+.marginBottonSocialNetworks{
+    margin-bottom: 15px;
+    border-color: black;
 }

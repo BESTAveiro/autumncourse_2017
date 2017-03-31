@@ -3033,7 +3033,7 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
+  color: #F7A941; /*Secção do Curso: Cor do Butão quando se passa o rato por cima*/
   text-decoration: none;
 }
 .btn:active,
