@@ -91,10 +91,19 @@
     vertical-align: middle;
     max-width: 100%;
     /*width: auto;*/
-
 }
 
 .marginBottonSocialNetworks{
     margin-bottom: 15px;
     border-color: black;
+}
+
+
+.contactIcons
+{
+    max-height: 100px;
+    /*height: auto;*/
+    max-width: 100px;
+    /*width: auto;*/
+    /*margin: 10px;*/
 }
