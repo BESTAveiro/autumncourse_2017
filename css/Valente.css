@@ -40,15 +40,17 @@
 
 .MOImg
 {
-    margin-top : 50px;
+    margin-top : 25px;
     max-height: 150px;
     /*height: auto;*/
-    max-width: 300px;
+    max-width: 150px;
     /*width: auto;*/
 }
 
 .otherCTMember
 {
+    max-height: 150px;
+    max-width: 150px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -120,4 +122,25 @@
     /*height: auto;*/
     max-width: 950px;
     /*width: auto;*/
+}
+
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 100px;
+
+    max-height: 100%;
+    /*margin: auto;*/
+    /*height: auto;*/
+    vertical-align: middle !important;
+    max-width: 100%;
+    /*width: auto;*/
+}
+
+.lampada{
+    /*max-height: 50%;*/
+    max-width: 60%;
+
 }
