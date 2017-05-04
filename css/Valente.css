@@ -75,6 +75,11 @@
     margin-top: 5px;
 }
 
+.marginLeft{
+    margin-left: 9px;
+}
+
+
 .partnersPortfolioBox
 {
     height: 200px;
@@ -129,7 +134,7 @@
     justify-content:center;
     align-items: center;
     flex-flow: column;
-    margin-top: 125px;
+    margin-top: 75px;
 
     max-height: 100%;
     /*margin: auto;*/
@@ -143,4 +148,8 @@
     /*max-height: 50%;*/
     max-width: 60%;
 
+}
+.teaser{
+
+    margin-top: 40px;
 }
