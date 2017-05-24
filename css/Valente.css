@@ -16,16 +16,16 @@
 }
 
 #btn-border {
-    -webkit-border-radius: 30;
-    -moz-border-radius: 30;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
     border-radius: 30px;
     padding: 20px 25px 20px 25px;
     border: solid #F39200 1px;
     text-decoration: none;
 }
 #btn-border2 {
-    -webkit-border-radius: 30;
-    -moz-border-radius: 30;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
     border-radius: 30px;
     padding: 20px 25px 20px 25px;
     border: solid #F39200 1px;
