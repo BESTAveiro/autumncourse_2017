@@ -85,6 +85,17 @@
     height: 200px;
 }
 
+.partnersPortfolioBox_MainSponsor
+{
+    height: 300px;
+}
+
+.partnersPortfolioBox_GoldSponsor
+{
+    height: 200px;
+}
+
+
 .contactImages
 {
     display:flex;
@@ -158,3 +169,4 @@
     max-height: 300px;
     /*height: auto;*/
 }
+
