@@ -172,3 +172,9 @@
 .paddingNews{
     padding: 30px;
 }
+
+.imageNews{
+    max-width: 150px;
+    max-height: inherit;
+
+}
