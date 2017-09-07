@@ -26,7 +26,7 @@ ul.social-network li {
 }
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-    color:#fff;
+    color:black;
 }
 a.socialIcon:hover, .socialHoverClass {
     color:#44BCDD;
@@ -39,7 +39,7 @@ a.socialIcon:hover, .socialHoverClass {
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     border-radius:50%;
-    border:solid white 1px;
+    border:solid black 1px;
     text-align:center;
     width: 50px;
     height: 50px;
@@ -66,7 +66,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 }
 .social-circle i {
-    color: #fff;
+    color: black;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
